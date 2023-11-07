@@ -1,6 +1,9 @@
 const header = document.querySelector('header');
-const headerElement = document.createElement('h1');
 
+window.addEventListener('load', () => {
+    const headerElement = document.createElement('h1');
+    header.appendChild(headerElement);
+});
 console.log(header);
 //Fetch is used to GET party data from the API
 //The app contains a descriptive list of all the parties;
