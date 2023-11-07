@@ -1,3 +1,7 @@
+//Connect .js to .html
+// console.log('Hello');
+const header = document.querySelector('h1');
+console.log(header);
 //Fetch is used to GET party data from the API
 //The app contains a descriptive list of all the parties;
     //names,
