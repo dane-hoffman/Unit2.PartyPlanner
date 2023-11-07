@@ -2,7 +2,9 @@ const header = document.querySelector('header');
 
 window.addEventListener('load', () => {
     const headerElement = document.createElement('h1');
+    headerElement.textContent = 'FSA Party Planner';
     header.appendChild(headerElement);
+    
 });
 console.log(header);
 //Fetch is used to GET party data from the API
